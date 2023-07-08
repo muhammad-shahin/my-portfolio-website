@@ -12,6 +12,7 @@
   line-height: normal;
 }
 /* nav bar style */
+
 span {
   color: #fd6e0a;
 }
@@ -19,6 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -41,8 +43,20 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   border: 0;
+  padding: 18px 35px;
 }
 #btn-nav {
-  width: 150px;
-  height: 64px;
+  padding: 18px 35px;
+}
+/* header related style */
+header{
+  background: #FFF8F3;
+}
+.banner{
+  display: flex;
+  padding: 30px 30px 30px 150px ;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 500px;
 }
