@@ -43,20 +43,44 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   border: 0;
-  padding: 18px 35px;
+  padding: 10px 18px;
 }
 #btn-nav {
   padding: 18px 35px;
 }
 /* header related style */
-header{
-  background: #FFF8F3;
+header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
+.banner {
   display: flex;
-  padding: 30px 30px 30px 150px ;
+  padding: 30px 30px 0 150px;
   align-items: center;
+  justify-content: space-between;
 }
-.banner .profile-pic{
-  width: 500px;
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-pic {
+  width: 580px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title {
+  color: #181818;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
 }
