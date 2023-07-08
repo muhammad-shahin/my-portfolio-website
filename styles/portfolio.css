@@ -11,6 +11,20 @@
   font-weight: 800;
   line-height: normal;
 }
+.section-title {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 150px;
+}
 /* nav bar style */
 
 span {
@@ -83,4 +97,38 @@ header {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
+}
+/* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section style */
+.about {
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+  padding: 130px 0;
+}
+.about-info-container{
+  display: flex;
+  padding: 0 100px;
+}
+.about-info{
+  text-align: center;
+  padding: 0 50px;
+}
+.info-title {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.info-description {
+  color: #181818;
+  text-align: center;
+  font-size: 14x;
+  font-weight: 600;
+  margin-top: 5px;
 }
